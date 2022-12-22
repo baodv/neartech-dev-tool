@@ -1,0 +1,40 @@
+{
+    "name": "neartech/dev-tool",
+    "description": "Base package for Neartech CMS application",
+    "keywords": [
+        "neartech/dev-tool"
+    ],
+    "homepage": "https://neartechsoft.com/",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "baodv",
+            "email": "baodv.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Neartech\\DevTool\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neartech\\DevTool\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neartech\\DevTool\\Providers\\DevToolServiceProvider"
+            ]
+        }
+    }
+}

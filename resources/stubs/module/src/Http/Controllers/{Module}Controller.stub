@@ -1,0 +1,51 @@
+<?php
+
+namespace Neartech\{Module}\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use Neartech\{Module}\Http\Requests\{Module}Request;
+use Illuminate\Http\Request;
+
+class {Module}Controller extends Controller
+{
+    private $pathView = 'blog::post.';
+
+    public function __construct()
+    {
+    }
+
+    public function index(Request $request)
+    {
+        return view($this->pathView . 'index');
+    }
+
+    public function create()
+    {
+        return view($this->pathView . 'create');
+    }
+
+    public function store({Module}Request $request)
+    {
+
+    }
+
+    public function show()
+    {
+
+    }
+
+    public function edit({Module}Request $request, $id)
+    {
+        return view($this->pathView . 'edit');
+    }
+
+    public function update(Request $request, $id)
+    {
+
+    }
+
+    public function destroy()
+    {
+
+    }
+}

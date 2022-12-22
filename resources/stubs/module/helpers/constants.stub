@@ -1,0 +1,5 @@
+<?php
+
+if (!defined('{MODULE}_SCREEN_NAME')) {
+    define('{MODULE}_SCREEN_NAME', '{module}');
+}

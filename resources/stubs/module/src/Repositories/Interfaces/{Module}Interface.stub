@@ -1,0 +1,10 @@
+<?php
+
+namespace Neartech\{Module}\Repositories\Interfaces;
+
+use Neartech\Base\Repositories\Interfaces\BaseRepositoryInterface;
+
+interface {Module}Interface extends BaseRepositoryInterface
+{
+
+}

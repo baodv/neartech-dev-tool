@@ -1,0 +1,40 @@
+{
+    "name": "neartech/{module}",
+    "description": "{Module} package for Neartech CMS application",
+    "keywords": [
+        "neartech/{module}"
+    ],
+    "homepage": "https://neartechsoft.com/",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "baodv",
+            "email": "baodv.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Neartech\\{Module}\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neartech\\{Module}\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neartech\\{Module}\\Providers\\{Module}ServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<?php
+
+namespace Neartech\{Module}\Repositories\Eloquent;
+
+use Neartech\Base\Repositories\Eloquent\BaseRepositoryEloquent;
+use Neartech\{Module}\Repositories\Interfaces\{Module}Interface;
+
+class {Module}Repository extends BaseRepositoryEloquent implements {Module}Interface
+{
+
+}
