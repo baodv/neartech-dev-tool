@@ -2,6 +2,7 @@
 neartech/dev-tool is a Laravel package which wa created to manage your Laravel
 . Module is like a laravel package, it have some views, controllers or models.
 This package is supported available tools for HMVC Laravel projects.
+ahihi
 
 ### Installation
 
